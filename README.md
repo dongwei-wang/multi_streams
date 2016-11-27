@@ -15,8 +15,11 @@ In each GPU implementation, I launch four streams to process the images data to 
 
 # run the program
 To make sure the program could run, we should create three folders in project directory:
+
 src/ : store the colored images
+
 cpu_tar/ : store the grayscale images which are processed by CPU
+
 gpu_tar/ : store the grayscale images which are processed by GPU
 
 put the images into src/ directory
